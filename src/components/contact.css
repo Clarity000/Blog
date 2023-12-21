@@ -1,0 +1,65 @@
+/*
+    CONTAINER-----------------------------
+*/
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 17rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgba(255, 255, 255, 1);
+}
+
+/*
+    TEXT----------------------------------
+*/
+
+.contact-us {
+    display: flex;
+    width: 15.4rem;
+    height: 2.7rem;
+}
+
+/*
+    IMPUTS--------------------------------
+*/
+
+.imputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.email-imput {
+    width: 15rem;
+    height: 1.3rem;
+    background-color: rgba(217, 217, 217, 0.5);
+    border-radius: .5rem;
+    border: 0px;
+}
+
+.message-imput{
+    width: 15rem;
+    height: 7rem;
+    margin-top: 1rem;
+    background-color: rgba(217, 217, 217, 0.5);
+    border-radius: .5rem;
+    border: 0px;
+}
+
+.contact-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 15.4rem;
+    height: 3rem;
+}
+.contact-button button {
+    width: 4rem;
+    height: 1.4rem;
+    border: 0px;
+    border-radius: .7rem;
+    background-color: rgba(250, 252, 255, 0.58);
+    color: rgba(255, 255, 255, 1);
+}

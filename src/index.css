@@ -1,39 +1,27 @@
+/*
+
+*/
+
 :root {
   --background :#0F264E; 
   --font: rgba( 255, 255, 255, 1);
 }
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Kumbh Sans', sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
-  background: #384563;
+  background-color: #384563;
 }
 h1 {
   user-select: none;
 }
-.title-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 10rem;
-  width: 100%;
-  background-image: url(./src/assets/Inca_village.png) ;
-  background-size: cover;
-  background-position: center;
-  color: white;
-}
-section {
-  display: flex;
-  width: 100%;
-  height: auto;
-  align-items: center;
-  justify-content: center;
-}
+
+
 
 
 
 
 /*
-  RESPONSIVE
+  RESPONSIVE------------------------------------------------------------------------------
 */
 

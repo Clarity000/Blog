@@ -25,6 +25,7 @@
 }
 
 .blog-img {
+  user-select: none;
   width: 15rem;
   margin: 1rem;
   border-radius: .5rem;
@@ -130,25 +131,16 @@
     justify-content: flex-end;
   }
   .blog-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(20, 20, 20, 0.66);
     border-radius: 5rem;
-    border: 1px transparent;
     padding: 1rem;
     width: 2.9rem;
     height: 2.25rem;
     margin-bottom: 1rem;
     margin-right: 1rem;
   }
-  .blog-buttons :hover {
-    background-color: rgba(20, 20, 20, 100);
-  }
   
   
   .buttons-img {
-    background-color: transparent;
     width: 1.5rem;
     height: 1.38rem;
   }
@@ -193,11 +185,9 @@
   */
   
   .blog-pharagraph {
-    text-align: start;
     font-size: 13px;
     width: 16.5rem;
     height: 8.5rem;
-    overflow-y: scroll;
   }
   
   
@@ -249,9 +239,7 @@
     width: 22rem;
     height: 14rem;
     position: relative;
-    background-color: var(--background);
     border-radius: 1rem;
-    color: var(--font);
     margin: .6rem;
     
   }

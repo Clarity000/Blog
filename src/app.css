@@ -1,0 +1,42 @@
+/*
+    HEADER---------------------------
+*/
+
+.title-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    width: 100%;
+    background-image: url(./src/assets/Inca_village.png) ;
+    background-size: cover;
+    background-position: center;
+    color: var(--font);
+}
+
+/*
+  SECTION----------------------------
+*/
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*
+  FOOTER------------------------------
+*/
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    height: 20rem;
+}
